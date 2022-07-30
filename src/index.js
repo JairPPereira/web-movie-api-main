@@ -10,6 +10,7 @@ import A2067 from './pages/Filmes/2067';
 
 
 
+
 import './global.css'
  
 
