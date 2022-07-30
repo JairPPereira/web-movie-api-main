@@ -17,8 +17,8 @@ ReactDOM.render(
     <Routes>
       <Route path="/" element={<Home/>}/>
       <Route path="/details/:id" element={<Details/>}/>
-      <Route path="/675353" element={<Sonic/>}/>
-      <Route path="/451877" element={<Acasadomedo/>}/>
+      <Route path="/454626" element={<Sonic/>}/>
+      <Route path="/322518" element={<Acasadomedo/>}/>
     </Routes>
   </BrowserRouter>,
   document.getElementById('root')
