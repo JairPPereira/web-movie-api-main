@@ -19,7 +19,7 @@ import Aeradogelo2 from './components/pages/Aeradogelo2';
 import Acasadomedo from './components/pages/Acasadomedo';
 import Sonic1 from './components/pages/Sonic1';
 import Afilhadorei from './components/pages/Afilhadorei';
-import Aformadaagua from './components/pages/Aformadaagua';
+import Assasinatosdopassado from './components/pages/Assasinatosdopassado';
 
 
 
@@ -45,8 +45,9 @@ ReactDOM.render(
       <Route path="/454626" element={<Sonic1/>}/>
       <Route path="/245842" element={<Afilhadorei/>}/>
       <Route path="/399055" element={<Aformadaagua/>}/>
+      <Route path="/191137" element={<Assasinatosdopassado/>}/>
       
-      
+
     
 
     </Routes>
