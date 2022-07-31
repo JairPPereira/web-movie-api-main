@@ -233,7 +233,7 @@ export default function Daaz() {
       
       <Link to="./Sextafeira13">Sexta feira 13</Link>
       
-      <Link to="./Sonic">Sonic</Link>
+      <Link to="./Sonic1">Sonic</Link>
       
       <Link to="./Scooby">Scooby-Doo</Link>
       

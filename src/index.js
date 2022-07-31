@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import Home from './pages/Home';
 import Details from './pages/Details';
-import Sonic from './components/pages/Filmes/Sonic';
+import Sonic1 from './components/pages/Filmes/Sonic1';
 import Acasadomedo from './components/pages/Filmes/Acasadomedo';
 import A2067 from './components/pages/Filmes/2067';
 
@@ -30,7 +30,7 @@ ReactDOM.render(
       <Route path="/tvs" element={<TVs/>}/>
       
       <Route path="/details/:id" element={<Details/>}/>
-      <Route path="/454626" element={<Sonic/>}/>
+      <Route path="/454626" element={<Sonic1/>}/>
       <Route path="/322518" element={<Acasadomedo/>}/>
       <Route path="/528085" element={<A2067/>}/>
       <Route path="/91333" element={<Acertodecontas/>}/>

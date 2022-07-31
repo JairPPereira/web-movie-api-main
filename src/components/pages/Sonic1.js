@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import './videoapp.css';
 
  
-class Sonic extends Component {
+class Sonic1 extends Component {
     player = {}
     state = {
         video: {
@@ -74,4 +74,4 @@ class Sonic extends Component {
         );
     }
 }
-export default Sonic;
+export default Sonic1;
