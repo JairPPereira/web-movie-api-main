@@ -16,6 +16,7 @@ import Porcategoria from './components/pages/Porcategoria';
 import Playlistyou from './components/pages/Playlistyou';
 import Radios from './components/pages/Radios';
 import Series from './components/pages/Series';
+import Aeradogelo2 from './components/pages/Aeradogelo2';
 
 
 
@@ -38,6 +39,8 @@ ReactDOM.render(
       <Route path="/playlistyou" element={<Playlistyou/>}/>
       <Route path="/radios" element={<Radios/>}/>
       <Route path="/series" element={<Series/>}/>
+      <Route path="/950" element={<Aeradogelo2/>}/>
+      
       
     
 
