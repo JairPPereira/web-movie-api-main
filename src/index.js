@@ -20,8 +20,7 @@ import Acasadomedo from './components/pages/Acasadomedo';
 import Sonic1 from './components/pages/Sonic1';
 import Afilhadorei from './components/pages/Afilhadorei';
 import Assasinatosdopassado from './components/pages/Assasinatosdopassado';
-
-
+import Aformadaagua from './components/pages/Aformadaagua';
 
 
 ReactDOM.render(

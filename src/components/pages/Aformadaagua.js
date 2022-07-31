@@ -67,8 +67,7 @@ class Aformadaagua extends Component {
        <nav>
        <p><br /></p>
        <Link to="/">Home</Link>
-     
-       <p>Mais informações Tmdb</p>
+
 
 </nav></div>
 <iframe
