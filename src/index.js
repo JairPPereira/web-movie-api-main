@@ -16,6 +16,10 @@ import Playlistyou from './components/pages/Playlistyou';
 import Radios from './components/pages/Radios';
 import Series from './components/pages/Series';
 import Aeradogelo2 from './components/pages/Aeradogelo2';
+import Acasadomedo from './components/pages/Acasadomedo';
+import Sonic1 from './components/pages/Sonic1';
+import Afilhadorei from './components/pages/Afilhadorei';
+import Aformadaagua from './components/pages/Aformadaagua';
 
 
 
@@ -37,6 +41,10 @@ ReactDOM.render(
       <Route path="/radios" element={<Radios/>}/>
       <Route path="/series" element={<Series/>}/>
       <Route path="/950" element={<Aeradogelo2/>}/>
+      <Route path="/322518" element={<Acasadomedo/>}/>
+      <Route path="/454626" element={<Sonic1/>}/>
+      <Route path="/245842" element={<Afilhadorei/>}/>
+      <Route path="/399055" element={<Aformadaagua/>}/>
       
       
     
