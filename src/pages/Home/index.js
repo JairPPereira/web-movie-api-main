@@ -18,11 +18,11 @@ export default function Home() {
         <p><br /></p>
         <Link to="/series">Séries</Link>
         <p><br /></p>
-        <Link to="/Playlistyou">Playlist de filmes do youtube</Link>
+        <Link to="/playlistyou">Playlist de filmes do youtube</Link>
         <p><br /></p>
         <Link to="/TVs">TVs</Link>
         <p><br /></p>
-        <Link to="/Radios">Radios</Link>
+        <Link to="/radios">Radios</Link>
         <p><br /></p>
 
           

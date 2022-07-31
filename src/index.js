@@ -14,6 +14,8 @@ import TVs from './components/pages/TVs';
 import Todosf from './pages/Home/Todosf';
 import Porcategoria from './components/pages/Porcategoria';
 import Playlistyou from './components/pages/Playlistyou';
+import Radios from './components/pages/Radios';
+import Series from './components/pages/Series';
 
 
 
@@ -33,6 +35,8 @@ ReactDOM.render(
       <Route path="/todosf" element={<Todosf/>}/>
       <Route path="/porcategoria" element={<Porcategoria/>}/>
       <Route path="/playlistyou" element={<Playlistyou/>}/>
+      <Route path="/radios" element={<Radios/>}/>
+      <Route path="/series" element={<Series/>}/>
       
     
 
