@@ -4,18 +4,19 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import Home from './pages/Home';
 import Details from './pages/Details';
-import Sonic from './pages/Filmes/Sonic';
-import Acasadomedo from './pages/Filmes/Acasadomedo';
+import Sonic from './components/pages/Filmes/Sonic';
+import Acasadomedo from './components/pages/Filmes/Acasadomedo';
 import A2067 from './pages/Filmes/2067';
 
 import './global.css'
-import Acertodecontas from './pages/Filmes/Acertodecontas';
+import Acertodecontas from './components/pages/Filmes/Acertodecontas';
 import TVs from './components/pages/TVs';
 import Todosf from './pages/Home/Todosf';
 import Porcategoria from './components/pages/Porcategoria';
 import Playlistyou from './components/pages/Playlistyou';
 import Radios from './components/pages/Radios';
 import Series from './components/pages/Series';
+
 
 
 
