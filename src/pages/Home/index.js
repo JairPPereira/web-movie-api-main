@@ -11,7 +11,7 @@ export default function Home() {
       <div className="nave">
         <nav>
         <p><br /></p>
-        <Link to="/Daaz">Filmes de A a Z</Link>
+        <Link to="/todosf">Filmes de A a Z</Link>
         <p><br /></p>
         <Link to="/Porcategoria">Filmes Por categoria</Link>
         <p><br /></p>
