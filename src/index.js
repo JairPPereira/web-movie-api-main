@@ -5,10 +5,10 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Details from './pages/Details';
 
-import A2067 from './components/pages/Filmes/2067';
+import A2067 from './components/pages/2067';
 
 import './global.css'
-import Acertodecontas from './components/pages/Filmes/Acertodecontas';
+import Acertodecontas from './components/pages/Acertodecontas';
 import TVs from './components/pages/TVs';
 import Todosf from './pages/Home/Todosf';
 import Porcategoria from './components/pages/Porcategoria';
