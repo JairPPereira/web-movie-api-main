@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import Navbar from './Navbar';
 import { Container, Movie, MovieList } from './styles';
 
-function Home() {
+function Todosf() {
 
   const imagePath = 'https://image.tmdb.org/t/p/w500/'
 
@@ -40,4 +40,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Todosf;

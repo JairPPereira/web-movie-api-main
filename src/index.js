@@ -14,6 +14,7 @@ import A2067 from './pages/Filmes/2067';
 import './global.css'
 import Acertodecontas from './pages/Filmes/Acertodecontas';
 import TVs from './components/pages/TVs';
+import Todosf from './pages/Home/Todosf';
 
 
 
@@ -30,6 +31,8 @@ ReactDOM.render(
       <Route path="/322518" element={<Acasadomedo/>}/>
       <Route path="/528085" element={<A2067/>}/>
       <Route path="/91333" element={<Acertodecontas/>}/>
+      <Route path="/todosf" element={<Todosf/>}/>
+
     </Routes>
 
   </BrowserRouter>,
