@@ -1,43 +1,42 @@
-import { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
-import Navbar from './Navbar';
-import { Container, Movie, MovieList } from './styles';
+import React from 'react';
+import {Link } from "react-router-dom";
 
-function Home() {
 
-  const imagePath = 'https://image.tmdb.org/t/p/w500/'
 
-  const [movies, setMovies] = useState([])
-
-  useEffect(() => {
-    fetch(`https://api.themoviedb.org/4/list/8212114?api_key=fcfe44809de84129fab53e785124bb95&language=pt-BR`)
-    .then(response => response.json())
-    .then(data => {
-      setMovies(data.results)
-    })
-  }, [])
+export default function Home() {
 
   return (
+    <>
+      <h1 className='home'>
+      <div className="nave">
+        <nav>
+        <p><br /></p>
+        <Link to="/Daaz">Filmes de A a Z</Link>
+        <p><br /></p>
+        <Link to="/Porcategoria">Filmes Por categoria</Link>
+        <p><br /></p>
+        <Link to="/Series">Séries</Link>
+        <p><br /></p>
+        <Link to="/Playlistyou">Playlist de filmes do youtube</Link>
+        <p><br /></p>
+        <Link to="/TVs">TVs</Link>
+        <p><br /></p>
+        <Link to="/Radios">Radios</Link>
+        <p><br /></p>
 
-  <Container>
-     <Navbar />
-      <h1>Filmes</h1>
+          
+  
+        </nav>
+        <p>O site JPP APP é uma plataforma para assistir filmes e séries online, nesta página, funcionamos como base nas últimas tecnologias lançadas nesta geração voltada ao uso de inteligência artificial & robots & API de dados, ou seja, não hospedamos vídeos em nossos servidores, apenas, de forma automática, indexamos os arquivos que são capturados pela web, nos tornando completamente legais & dentro da lei. O uso desta plataforma é de total responsabilidade do usuário. Qualquer violação de direitos autorais, entre em contato com o distribuidor. Em caso de dúvidas ou reclamações sobre o conteúdo, entre em contato conosco para obter a devida ajuda.</p>
+        <p><br /></p><p>Ajude a manter nosso site</p>
+        <p><br /></p>
+        <p2>Pix: jairppereira21@gmail.com</p2>
+        <p><br /></p></div>
+</h1>
 
-      <MovieList>
-      {movies.map(movie => {
-        return (
-          <Movie key={movie.id}>
-            <Link to={`/${movie.id}`}>
-              <img src={`${imagePath}${movie.poster_path}`} alt={movie.title}/>
-            </Link>
-            <span>{movie.title}</span>
-            <Link to={`/${movie.id}`}><button>Assistir</button></Link>
-          </Movie>
-        )
-      })}
-      </MovieList>
-    </Container>
+    </>
+        
+        
+         
   );
 }
-
-export default Home;
