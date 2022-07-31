@@ -27,11 +27,11 @@ function Home() {
       {movies.map(movie => {
         return (
           <Movie key={movie.id}>
-            <Link to={`/details/${movie.id}`}>
+            <Link to={`/${movie.id}`}>
               <img src={`${imagePath}${movie.poster_path}`} alt={movie.title}/>
             </Link>
             <span>{movie.title}</span>
-
+            <Link to={`/${movie.id}`}><button>Assistir</button></Link>
           </Movie>
         )
       })}

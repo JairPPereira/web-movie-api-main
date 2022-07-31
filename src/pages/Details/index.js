@@ -30,20 +30,22 @@ function Details() {
     <Container>
       <div className="movie">
       <img src={movie.image} alt={movie.sinopse}/>
+     
       <div className="details">
         <h1>{movie.title}</h1>
         
         <span>Sinopse: {movie.sinopse}</span>
 
         <span className='release-date'>Release date: {movie.releaseDate}</span>
-        <Link to="/"><button>Go Back</button></Link>
+       
 
-        <Link to={`/${movie.id}`}><button>Assistir</button></Link>
+        <Link to="/"><button>Go Back</button></Link></div>
+         
+       
 
      
 
-      </div>
-    </div>
+         </div>
 
     </Container>
   );
