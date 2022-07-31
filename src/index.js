@@ -15,6 +15,7 @@ import './global.css'
 import Acertodecontas from './pages/Filmes/Acertodecontas';
 import TVs from './components/pages/TVs';
 import Todosf from './pages/Home/Todosf';
+import Porcategoria from './components/pages/Porcategoria';
 
 
 
@@ -32,6 +33,9 @@ ReactDOM.render(
       <Route path="/528085" element={<A2067/>}/>
       <Route path="/91333" element={<Acertodecontas/>}/>
       <Route path="/todosf" element={<Todosf/>}/>
+      <Route path="/porcategoria" element={<Porcategoria/>}/>
+      
+
 
     </Routes>
 
