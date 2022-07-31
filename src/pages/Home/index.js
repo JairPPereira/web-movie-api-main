@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-
+import Navbar from './Navbar';
 import { Container, Movie, MovieList } from './styles';
 
 function Home() {
@@ -18,8 +18,11 @@ function Home() {
   }, [])
 
   return (
-    <Container>
+
+  <Container>
+     <Navbar />
       <h1>Filmes</h1>
+
       <MovieList>
       {movies.map(movie => {
         return (
