@@ -6,7 +6,7 @@ import Home from './pages/Home';
 import Details from './pages/Details';
 import Sonic from './components/pages/Filmes/Sonic';
 import Acasadomedo from './components/pages/Filmes/Acasadomedo';
-import A2067 from './pages/Filmes/2067';
+import A2067 from './components/pages/Filmes/2067';
 
 import './global.css'
 import Acertodecontas from './components/pages/Filmes/Acertodecontas';
