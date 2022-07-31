@@ -8,14 +8,12 @@ import Sonic from './pages/Filmes/Sonic';
 import Acasadomedo from './pages/Filmes/Acasadomedo';
 import A2067 from './pages/Filmes/2067';
 
-
-
-
 import './global.css'
 import Acertodecontas from './pages/Filmes/Acertodecontas';
 import TVs from './components/pages/TVs';
 import Todosf from './pages/Home/Todosf';
 import Porcategoria from './components/pages/Porcategoria';
+import Playlistyou from './components/pages/Playlistyou';
 
 
 
@@ -34,8 +32,9 @@ ReactDOM.render(
       <Route path="/91333" element={<Acertodecontas/>}/>
       <Route path="/todosf" element={<Todosf/>}/>
       <Route path="/porcategoria" element={<Porcategoria/>}/>
+      <Route path="/playlistyou" element={<Playlistyou/>}/>
       
-
+    
 
     </Routes>
 

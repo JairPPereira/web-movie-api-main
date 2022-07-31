@@ -14,9 +14,9 @@ export default function Home() {
         <p><br /></p>
         <Link to="/todosf">Filmes de A a Z</Link>
         <p><br /></p>
-        <Link to="/Porcategoria">Filmes Por categoria</Link>
+        <Link to="/porcategoria">Filmes Por categoria</Link>
         <p><br /></p>
-        <Link to="/Series">Séries</Link>
+        <Link to="/series">Séries</Link>
         <p><br /></p>
         <Link to="/Playlistyou">Playlist de filmes do youtube</Link>
         <p><br /></p>
