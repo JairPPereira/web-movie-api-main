@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link } from "react-router-dom";
 import Navbar from './Navbar';
-import './global.css'
+import './styles'
 
 
 export default function Home() {

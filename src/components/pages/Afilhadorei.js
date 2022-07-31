@@ -67,9 +67,16 @@ class Afilhadorei extends Component {
       <p><br /></p>
       <Link to="/">Home</Link>
 
-<p><br /></p>
+      <p>Mais informações Tmdb</p>
 
-      </nav></div></div>
+</nav></div>
+<iframe
+src="https://www.themoviedb.org/movie/245842-the-king-s-daughter?language=pt-BR"
+frameborder="0"
+width="100%" height="480px"
+
+title="video"
+/>{" "}</div>
             
         );
     }
