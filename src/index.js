@@ -21,7 +21,7 @@ ReactDOM.render(
   <BrowserRouter>
 
     <Routes>
-
+    
       <Route path="/" element={<Home/>}/>
       <Route path="/tvs" element={<TVs/>}/>
       
@@ -31,7 +31,7 @@ ReactDOM.render(
       <Route path="/528085" element={<A2067/>}/>
       <Route path="/91333" element={<Acertodecontas/>}/>
     </Routes>
-   
+
   </BrowserRouter>,
   document.getElementById('root')
 );
